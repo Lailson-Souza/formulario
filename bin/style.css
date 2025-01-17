@@ -1,0 +1,65 @@
+body{
+    min-height: 100vh;
+    background: white;
+    font-family: sans-serif;
+    display: grid;
+    place-items: center;
+}
+h1{
+    font-size: 1.7rem;
+    font-weight: 750;
+    color:black;
+    margin-bottom: 1.7rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 28rem;
+    background: white;
+    padding: 4rem;
+    border-radius: 0.5rem;
+    box-shadow:  0 0 1.8rem rgba(0,0,0, 0.15);
+}
+label{
+    width: 100%;
+    color: black;
+    align-self: flex-start;
+    transition: 0.15s linear;
+}
+label:focus-within{
+ color: #8d3dc8;
+}
+input{
+    font-size: 1.1875rem;
+    color: #404040;
+    padding: 0.1rem;
+    width: 100%;
+    border: none;
+    border-color: #a0a0a0;
+    border-bottom-width: 1px;
+    border-bottom-style: dotted;
+    margin-bottom: 3rem;
+    transition: 0.15s linear;
+}
+input:focus{
+    outline:none;
+    border-color: rgb(194, 26, 26);
+}
+button{
+    font-size:0.8rem;
+    line-height: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    background: rgb(246, 242, 242);
+    color: red;
+    border: 2px solid currentColor;
+    border-radius: 6px;
+    margin-top: 0,5rem;
+    transition: 0.30s;
+
+}
